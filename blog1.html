@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: skyblue;
+}
+
+
+.header {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  background: lightgray;
+}
+
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+
+.img {
+  background-color: red;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.card {
+   background-color:violet;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: lightgrey;
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 720px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Personal Blog</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>TESLA</h2>
+      <h5>Tesla is accelerating the world's transition to sustainable energy with electric cars, solar and integrated renewable energy solutions for homes and businesses.<br> Jan 16, 2021</h5></br>
+      <img src="tesla.jpeg" ><div class="tesla" style="height:60px;"></div>
+     <p>Tesla’s recent breakout market performance is proving some of its skeptics wrong. By mid-January, Tesla’s market capitalization had reached $107 billion, and it surged past the giant German automaker Volkswagen to become the world’s second most valuable auto company behind Toyota. Tesla’s valuation now exceeds that of Ford and GM combined.The Wall Street doubters may be in shock, but I’m not. Full disclosure, I own two Teslas and I own stock in the company. But it’s my experience as a three-time software company CEO that makes it increasingly clear to me that the company’s innovative business model represents an existential threat to the auto industry as a whole.How so?“Software is eating the world,” Marc Andreessen, co-founder and general partner of venture capital firm Andreessen Horowitz, wrote in a memorable 2011 essay. And software is a big part of Tesla’s advantage.</p>
+      <p>Tesla's battery-powered vehicles are significantly simpler than their internal combustion competitors. By some estimates they have significantly fewer parts per vehicle — around 20 — versus the 2,000 in internal combustion engines. This simplicity dramatically reduces the consumers total cost of ownership.</p>
+    </div>
+    <div class="card">
+      <h2>Popular Posts</h2>
+      <h5>Tesla Model S Jan 4, 2021</h5>
+      <img src="sm.jpg" >
+      <div class="sm" style="height:20px;">Tesla Model S </div>
+      <p>The Model S originally launched in 2012 and helped to put Tesla on the map as an automaker. Tesla has continued updating the Model S since its release, and the most recent model has two different versions: the Long Range Plus and Performance, the Standard recently being dropped. The Model S is very much an executive saloon, with similar long and low design lines as you might find on a Jaguar.</p>
+      
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Us</h2>
+      <img src="we.jpg" >
+      <div class="fakeimg" style="height:40px;"></div>
+      <p>Tesla, Inc. is an American electric vehicle and clean energy company based in Palo Alto, California. Tesla's current products include electric cars, battery energy storage from home to grid scale, solar panels and solar roof tiles, as well as other related products and services.</p>
+    </div>
+    <div class="card">
+      <h3>To register</h3>
+      <form> 
+          Name :    <input type="text" placeholder="Enter your name"><br>
+          Email id :<input type="text" placeholder="Enter email id"></br>
+
+          <button type=submit" value="submit">SUBMIT</button>
+          
+      </form>
+      
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <html>
+        <body>
+        <p><a href="https://www.facebook.com/">Facebook</a></p>
+        <p><a href="https://www.Twitter.com/">Twitter</a></p>
+        <p><a href="https://www.Instagram.com/">Instagram</a></p>
+        
+        
+        </body>
+        </html> 
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+    
+        <a href="@copyright">@copyright</a></p>
+        <a href="Contract1">contract1</a></p>
+  
+</div>
+
+</body>
+</html>
